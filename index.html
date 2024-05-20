@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBSITE</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body >
+
+
+
+
+  <!-- nevbar start -->
+  <nav class="navbar     navbar-expand-lg  w-100     navbar-dark        bg-white">
+    <div class="container-fluid">
+      <!-- navbar brand -->
+      <a class="navbar-brand  mx-5 text1 text-dark" href="#">BAN<span style="color: red;">KAI</span></a>
+      <!-- toggle button -->
+      <button class="navbar-toggler     bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#page-link"
+        aria-controls="page-link" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--navbar page link list -->
+      <div class="collapse   gap-5     navbar-collapse       " id="page-link">
+        <ul class="navbar-nav        me-auto      mb-2    mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link   text btn btn-light  text-dark" aria-current="page" href="#">Homepage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link   text btn btn-light  text-dark" href="#">Our BLog</a>
+          </li>
+          <li class="nav-item     dropdown">
+            <a class="nav-link  text     dropdown-toggle btn btn-light text-dark    " href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu menus p-0 m-0">
+              <li><a class="dropdown-item  border bg-dark text-white" href="#">
+                  <h4>ANIME DETAILS</h4>
+                </a></li>
+
+              <li><a class="dropdown-item bg-dark text-white " href="#">
+                  <h6>ANIME WATCHING</h6>
+                </a></li>
+              <li><a class="dropdown-item bg-dark text-white" href="#">
+                  <h6>BLOG DETAILS</h6>
+                </a></li>
+              <li><a class="dropdown-item bg-dark text-white" href="#">
+                  <h6>SIGN UP</h6>
+                </a></li>
+              <li><a class="dropdown-item bg-dark text-white" href="#">
+                  <h6>LOG IN</h6>
+                </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-light     text   text-dark" href="#">Contacts</a>
+          </li>
+        </ul>
+        <!-- list end -->
+        <!-- search form -->
+        <form class="d-flex">
+          <input class="form-control   me-2" type="search" placeholder="Search">
+          <button class="btn  btn-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+
+
+
+
+<!-- header container -->
+<div class="container-fluid row w-100 mx-0 px-0">
+   <div><img src="./container-1.png" class="w-100 mb-3 mx-0 px-0 border rounded " alt="" style="
+   height: fit-content;">   
+</div>
+<!-- header container END -->
+
+
+
+
+  <!-- Carousel slide start here -->
+  <div id="slide" class="carousel slide-size slide" data-bs-ride="carousel">
+    <!-- indicator buttons -->
+    <div class="carousel-indicators ">
+      <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <!-- buttons end here -->
+    <!-- inner part (Images for slide and caption) -->
+    <div class="carousel-inner b-o ">
+      <!-- image one -->
+      <div class="carousel-item         active">
+        <a href="#"><img src="./slide-1.jpg" class="d-block w-100"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- caption 1 and details -->
+          <h5 class="caption-text">Vinland Saga</h5>
+          <p class="caption-text">Vinland Saga not only had to succeed one of the best seasons of all time, but it also
+            had to do so with a storyline that
+            directly opposes its predecessor. Set years after Askeladd's death and Canute's rise to the throne</p>
+        </div>
+      </div>
+      <!-- image 2 -->
+      <div class="carousel-item">
+        <a href="#"><img src="./slide-2.jpeg" class="d-block w-100"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- caption 2 and details -->
+          <h5 class="caption-text">Jujutsu Kaisen</h5>
+          <p class="caption-text"> Jujutsu Kaisen had all the potential in the world to craft a masterpiece, especially
+            since season 2 adapts two of the
+            manga's best arcs.</p>
+        </div>
+      </div>
+      <!-- image 3 -->
+      <div class="carousel-item">
+       <a href="#"> <img src="./slide-3.png" class="d-block w-100"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <!-- caption 3 and details -->
+          <h5 class="caption-text">Frieren: Beyond Journey's End</h5>
+          <p class="caption-text">Frieren: Beyond Journey's End is Madhouse's best anime in a long time, and it might
+            very well go down as the decorated
+            studio's crowning achievement when everything is said and done.</p>
+        </div>
+      </div>
+    </div>
+    <!-- next and previous buttons -->
+    <button class="carousel-control-prev" type="button" class="btn btn-dark" data-bs-target="#slide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  <!-- carousel slide end here -->
+  <div class="container-fluid bg-white " style="width: 100% ; height: 50px;"></div>
+
+
+
+
+
+  <!-- INFO TABS START HERE -->
+  <div class="container-fluid bg-white " >
+    <div class="px-sm-5 ">
+
+      <div class="row row-cols-lg-4 row-cols-sm-3 row-cols-2  my-4 ">
+        <!-- 1 Gallery item -->
+        <div class="col mb-5 ">
+          <div class="card bg-dark text-white "><img src="image-1.jpg" alt="" class="img-fluid card-img  ">
+            <div class="card-img-overlay cards">
+             <a href="#"> <img src="./image-1.jpg" class="img-thumbnail" style="height: 200px;"></a>
+              <h1 class="card-title">JUJUTSU KAISEN</h1>
+            <p class="card-text">It is a show based on jutsu of all kinds and overly fighting gods.</p>
+            <a href="#" class="btn btn-outline-light">WATCH NOW</a></div>
+          </div>
+        </div>
+        <!-- 1 End -->
+
+        <!-- 2 Gallery item -->
+      <div class="col mb-5 ">
+        <div class="card bg-dark text-white "><img src="image-2.jpg" alt="" class="img-fluid card-img  ">
+          <div class="card-img-overlay cards">
+           <a href="#"> <img src="./image-2.jpg" class="img-thumbnail" style="height: 200px;"></a>
+            <h1 class="card-title">TANJIRO YAMADA</h1>
+            <p class="card-text">This show is based on a hasira clan trying to fight demons.</p>
+            <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+          </div>
+        </div>
+      </div>
+        <!-- 2 End -->
+
+        <!-- 3 Gallery item -->
+        <div class="col mb-5 ">
+          <div class="card bg-dark text-white "><img src="image-3.jpg" alt="" class="img-fluid card-img  ">
+            <div class="card-img-overlay cards">
+              <a href="#"><img src="./image-3.jpg" class="img-thumbnail" style="height: 200px;"></a>
+              <h1 class="card-title">YOUR NAME</h1>
+              <p class="card-text">Your Name is the romantic show which everyone likes.</p>
+              <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- 3 End -->
+
+        <!-- 4 Gallery item -->
+          <div class="col mb-5 ">
+            <div class="card bg-dark text-white "><img src="image-4.jpg" alt="" class="img-fluid card-img  ">
+              <div class="card-img-overlay cards">
+                <a href="#"><img src="./image-4.jpg" class="img-thumbnail" style="height: 200px;"></a>
+                <h1 class="card-title">HASIRA SENJU</h1>
+                <p class="card-text">The demon slayer hashira having to ability to kill all.</p>
+                <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+              </div>
+            </div>
+          </div>
+        <!-- 4 End -->
+
+        <!-- 5 Gallery item -->
+        <div class="col mb-5 ">
+          <div class="card bg-dark text-white "><img src="image-5.jpg" alt="" class="img-fluid card-img  ">
+            <div class="card-img-overlay cards">
+              <a href="#"><img src="./image-5.jpg" class="img-thumbnail" style="height: 200px;"></a>
+              <h1 class="card-title">DEMON SLAYER</h1>
+              <p class="card-text">The one and only fighter for demon lords michel jacksson.</p>
+              <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- 5 End -->
+
+        <!-- 6  Gallery item -->
+        <div class="col mb-5 ">
+          <div class="card bg-dark text-white "><img src="image-6.jpg" alt="" class="img-fluid card-img  ">
+            <div class="card-img-overlay cards">
+              <a href="#"><img src="./image-6.jpg" class="img-thumbnail" style="height: 200px;"></a>
+              <h1 class="card-title">LITTLE SPARROW</h1>
+              <p class="card-text">The girl who try to win the hearts of everyone.</p>
+              <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- 6 End -->
+          <!-- 7 Gallery item -->
+            <div class="col mb-5 ">
+              <div class="card bg-dark text-white "><img src="image-7.jpg" alt="" class="img-fluid card-img  ">
+                <div class="card-img-overlay cards">
+                  <a href="#"><img src="./image-7.jpg" class="img-thumbnail" style="height: 200px;"></a>
+                  <h1 class="card-title">JOURNEY MANIS</h1>
+                  <p class="card-text">Little kiten is going to travel the world.</p>
+                  <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+                </div>
+              </div>
+            </div>
+          <!-- 7 End -->
+          
+          <!--8  Gallery item -->
+          <div class="col mb-5 ">
+            <div class="card bg-dark text-white "><img src="image-8.jpg" alt="" class="img-fluid card-img  ">
+              <div class="card-img-overlay cards">
+                <a href="#"><img src="./image-8.jpg" class="img-thumbnail" style="height: 200px;"></a>
+                <h1 class="card-title">YOUR LIE</h1>
+                <p class="card-text">The love story of two person in different time line.</p>
+                <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+              </div>
+            </div>
+          </div>
+          <!--8 End -->
+          
+          <!--   9 Gallery item -->
+          <div class="col mb-5 ">
+            <div class="card bg-dark text-white "><img src="image-9.jpg" alt="" class="img-fluid card-img  ">
+              <div class="card-img-overlay cards">
+                <a href="#"><img src="./image-9.jpg" class="img-thumbnail" style="height: 200px;"></a>
+                <h1 class="card-title">WATCH ME </h1>
+                <p class="card-text">The lady of all featuer is here to roll.</p>
+                <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+              </div>
+            </div>
+          </div>
+          
+          <!--9 End -->
+
+        <!-- 10 Gallery item -->
+        <div class="col mb-5 ">
+          <div class="card bg-dark text-white "><img src="image-10.png" alt="" class="img-fluid card-img  ">
+            <div class="card-img-overlay cards">
+              <a href="#"><img src="./image-10.png" class="img-thumbnail" style="height: 200px;"></a>
+              <h1 class="card-title">DEMON LORD</h1>
+              <p class="card-text">The castle of demon lord anos vavilon.</p>
+              <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- 10 End -->
+
+        <!--  11 Gallery item -->
+        <div class="col mb-5 ">
+          <div class="card bg-dark text-white "><img src="image-11.png" alt="" class="img-fluid card-img  ">
+            <div class="card-img-overlay cards">
+              <a href="#"><img src="./image-11.png" class="img-thumbnail" style="height: 200px;"></a>
+              <h1 class="card-title">WALK WITH ME</h1>
+              <p class="card-text">It is a show based on jutsu of all kinds and overly fighting gods.</p>
+              <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- 11 End -->
+
+        <!--12 Gallery item -->
+        <div class="col mb-5 ">
+          <div class="card bg-dark text-white "><img src="image-12.jpg" alt="" class="img-fluid card-img  ">
+            <div class="card-img-overlay cards">
+              <a href="#"><img src="./image-12.jpg" class="img-thumbnail" style="height: 200px;"></a>
+              <h1 class="card-title">PLATINUM END</h1>
+              <p class="card-text">It is a show based on jutsu of all kinds and overly fighting gods.</p>
+              <a href="#" class="btn btn-outline-light">WATCH NOW</a>
+            </div>
+          </div>
+        </div>
+        <!-- End -->
+      </div>
+    </div>
+    <!-- info tabs end here -->
+
+
+
+
+
+    <!-- gallery images -->
+    <div class="gallery mb-5">
+      <a href="#" class="item"><div ></div></a>
+      <a href="#" class="item"><div ></div></a>
+      <a href="#" class="item"><div ></div></a>
+      <a href="#" class="item"><div ></div></a>
+      <a href="#" class="item"><div ></div></a>
+    </div>
+<!-- gallery end here -->
+
+
+
+
+
+
+    <!--footer start here  -->
+    <footer class="bg-secondary footer row ">
+      <!-- form start here -->
+      <form class="col-10 col-lg-4 mb-3 ">
+        <div class=" mx-5 mt-5 ">
+          <label for="email" class="form-label ">Email address</label>
+          <input type="email" class="form-control" style="width: 240px;" id="email">
+          <div id="emailHelp" class="form-text ">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3 mx-5 mt-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" style="width: 240px;" id="password">
+        </div>
+        <div class="mb-3 mx-5 form-check">
+          <input type="checkbox" class="form-check-input" id="Check">
+          <label class="form-check-label" for="Check">Remember Me</label>
+        </div>
+        <button type="submit" class="btn btn-dark mx-5">Submit</button>
+      </form>
+      <!-- form end here -->
+      <!--image footer   -->
+      <div class="container-fluid  col-10 col-lg-7 mx-4 footer-img ">
+      </div>
+    </footer>
+    <!-- footer end here -->
+
+
+</body>
+
+</html>

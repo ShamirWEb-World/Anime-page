@@ -1,0 +1,197 @@
+/* slide  start */
+
+/* slide caption text */
+.caption-text {
+    background: rgba(71, 61, 61, 0.629);
+    color: white;
+    border-radius: 10px;
+    text-transform:capitalize;
+    font-weight: bold;
+    display: block;
+    border: 3px solid white;
+    outline: 2px solid black;
+    padding: 5px;
+}
+/* slide border */
+.slide-size{
+  width: 90%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.b-o {
+    margin-top: 10px;
+    width: 80vw;
+    border: 5px solid white;
+    outline: 10px solid black;
+}
+/* slide  end */
+
+
+
+
+
+/* navbar start */
+/* navbar page link text */
+.navbar
+{
+    font-size: 1em;
+
+}
+
+a.text,a.text1 {
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+a.text:hover {
+   
+
+    
+}
+/* categories dropdown */
+ul.menus{
+    outline: 2px solid black;
+}
+.form-control{
+    outline: 4px solid black;
+
+}
+/* navbar end */
+
+
+
+
+
+div>a>img {
+    border: 5px solid white;
+    outline: 5px solid black;
+}
+
+
+
+
+/* container-1 */
+
+.container-2{
+    width: 50%;
+    
+    text-align: center;
+    color: white;
+
+    border: 1px solid red;
+
+
+  font-weight: bold;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* info tabs */
+
+
+.cards{ 
+    border: 2px solid white;
+        background: rgba(0, 0, 0, 0.72);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        transform:translate3d(30%);  
+}
+div>.card:hover .cards{
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer
+ */
+
+.footer{
+       
+        margin-top: 100px;
+        border: 10px solid white;
+        font-weight: bold;
+        outline: 5px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+
+.footer-img {
+    height: 400px;
+    background-color: gray;
+    padding: 0;
+    background: url(./back-footer.png);
+    background-size: cover;
+    border: 7px solid white;
+    background-position: center;
+   
+    margin: 0;
+}
+/* footer end
+ */
+
+/* gallery
+ */
+
+ .gallery{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+     border: 2px solid white;
+     outline: 4px solid black;
+ }
+.item{
+    flex: 1;
+    height: 100%;
+}
+.item:nth-child(1){
+    background-image: url(./gallery-1.jpg);
+}
+.item:nth-child(2) {
+    background-image: url(./gallery-2.jpg);
+}
+.item:nth-child(3) {
+    background-image: url(./gallery-3.png);
+}
+.item:nth-child(4) {
+    background-image: url(./gallery-4.png);
+}
+.item:nth-child(5) {
+    background-image: url(./gallery-5.png);
+}
+
+.item{
+    background-position: cente;
+    background-size: cover;
+    transition: flex 0.8s ease;
+
+}
+
+.item:hover{
+     flex: 5;
+
+}
+
+/* gallery end */
+
+/* background */
+
